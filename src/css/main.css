@@ -66,19 +66,6 @@ background-position:0% -82px; /*Shift background image up to start of 2nd tab im
 .glowingtabs a:hover span{ /*onMouseover style*/
 background-position:100% -82px; /*Shift background image up to start of 2nd tab image*/
 }
-/*
-.tabcontainer{
-clear: left;
-width:95%; /*width of 2nd level sub menus*/
-/*height:1.5em; /*height of 2nd level sub menus. Set to largest's sub menu's height to avoid jittering.*/
-/*}
-
-.tabcontent{
-display:none;
-}
-*/
-
-
 
 
 
@@ -108,11 +95,9 @@ ul#tabcontainer ul {
    
 ul#tabcontainer ul li{
     float: left;
-    width:100%;
-    margin:2% 0%;
+    width:120px;
 
     visibility: inherit;
-
 
     color: #000000;
     font-family: Verdana,Geneva,Helvetica,Arial,sans-serif;
@@ -120,10 +105,7 @@ ul#tabcontainer ul li{
     border-bottom: 1px solid #7E9FFF;
     line-height: normal;
 
-
-    background: url("media/glowtab.gif") no-repeat scroll right top rgba(0, 0, 0, 0);
     display: block;
-    padding: 5px 12px 3px 3px;
 }
   
   
@@ -157,11 +139,46 @@ ul#tabcontainer li:hover ul ul,ul#tabcontainer li:hover ul ul ul,ul#tabcontainer
  cursor:pointer;
 }
    
-ul#tabcontainer li:hover ul,ul#tabcontainer ul li:hover ul,ul#tabcontainer ul ul li:hover ul,ul#tabcontainer li.iehover ul,ul#tabcontainer ul li.iehover ul,ul#tabcontainer ul ul li.iehover ul {
+ul#tabcontainer li:hover ul,ul#
+ ul li:hover ul,ul#tabcontainer ul ul li:hover ul,ul#tabcontainer li.iehover ul,ul#tabcontainer ul li.iehover ul,ul#tabcontainer ul ul li.iehover ul {
  display: block;
  cursor:pointer;
 }
 
 
+.tabSubmenu{
+    color: #3B3B3B;
+    display: block;
+    float: left;
+}
 
+
+.tabSubmenu a{
+    float:left;
+    display:block;
+    background: #FFFFFF;
+    font-weight:bold;
+    color:#3B3B3B; 
+    width: 110px;
+}
+
+.tabSubmenu a span {
+    background: #FFFFFF;
+    color: #3B3B3B;
+    display: block;
+    float: left; 
+    padding: 5px 5px 3px 3px;
+}
+
+
+ul#tabSubmenu li:hover ul ul,ul#tabSubmenu li:hover ul ul ul,ul#tabSubmenu li.iehover ul ul,ul#tabSubmenu li.iehover ul ul ul {
+ display: none;
+ cursor:pointer;
+}
+
+   
+ul#tabSubmenu li:hover ul,ul#tabSubmenu ul li:hover ul,ul#tabSubmenu ul ul li:hover ul,ul#tabSubmenu li.iehover ul,ul#tabSubmenu ul li.iehover ul,ul#tabSubmenu ul ul li.iehover ul {
+ display: block;
+ cursor:pointer;
+}
 

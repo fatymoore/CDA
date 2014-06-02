@@ -59,5 +59,8 @@ color: #646DC8;
 }
 #body a:hover, #body a.pager:hover {
     text-decoration: underline;
+    
+
+    display: block;
 }
 object.videoObject {display: none;}*+html object.videoObject {display: block;}* html object.videoObject {display: block;}embed.videoEmbed {display: block;}*+html embed.videoEmbed {display: none;}* html embed.videoEmbed {display: none;}
