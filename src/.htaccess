@@ -1,0 +1,13 @@
+RedirectMatch 301 (.*)/pageID_12711747.html $1/index.html
+RedirectMatch 301 (.*)/pageID_16733409.html $1/bonos-y-precios.html
+RedirectMatch 301 (.*)/pageID_16941781.html $1/sobre-mi.html
+RedirectMatch 301 (.*)/pageID_16741774.html $1/contacto.html
+RedirectMatch 301 (.*)/pageID_14798525.html $1/libro-de-visitas.html
+RedirectMatch 301 (.*)/pageID_12711748.html $1/cda-quiromasaje-reflexologia.html
+RedirectMatch 301 (.*)/pageID_14178208.html $1/digitopuntura-en-poblenou-sant-marti.html
+RedirectMatch 301 (.*)/pageID_14547173.html $1/quiropraxia-practica.html
+RedirectMatch 301 (.*)/pageID_12711750.html $1/reflexologia-podal-en-poblenou-sant-marti.html
+RedirectMatch 301 (.*)/pageID_17114160.html $1/reiki-poblenou-sant-marti-barcelona.html
+RedirectMatch 301 (.*)/pageID_16741937.html $1/como-llegar.html
+RedirectMatch 301 (.*)/pageID_17087709.html $1/album-de-fotos.html
+
