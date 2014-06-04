@@ -1,15 +1,4 @@
 
-.helloMessage {
-    style: hidden;
-}
-
-p.helloMessageTitle {
-    font-size: 38px;
-    font-weight: bold;
-    margin-top: 15px;
-    text-align: center;
-    color: red;
-}
 
 /* ************************************************ */
 /* Generic Design Css: tabs.css */
