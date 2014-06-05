@@ -8,9 +8,27 @@ body, #body, #maintable { margin-left:auto; margin-right:auto; }
 
 /* p,td { font-size:12px;color:#000000; } */
 .bot { font-size:10px;color:#000000; }
-.bg1 { background-color:#A9BAF1 }.bg2 { background-color:#D5E0F8 }
-.bg3 { background-color:#68A0C8 }
-.bg4 { background-color:#7CB2DE }
+.bg1 { background-color:#A9BAF1 }.bg2 { /*background-color:#D5E0F8*/ }
+.bg3 { 
+    /*background-color: #68A0C8;*/
+
+    /*
+    background-color: url("img/bg_gradient.png") repeat-x scroll 0 0 #CFCFCF;
+*/
+
+    background-color: #6C90A1;
+    background-image: url("http://static.wixstatic.com/media/84770f_e8c20f1efa99ee9a1d211494f95e00f2.jpg_srz_p_1280_800_75_22_0.50_1.20_0.00_jpg_srz");
+    background-position: center top;
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    height: 359px;
+/*    position: fixed;*/
+    width: 100%;
+
+
+}
+.bg4 { /*background-color:#7CB2DE*/ }
 
 #maintable {
 	border-left:33px solid #865f34;
@@ -26,7 +44,20 @@ html {
     overflow:auto;
 }
 body {
-    background: #68A0C8;
+    /*background: #68A0C8;
+    background: url("img/bg_gradient.png") repeat-x scroll 0 0 #CFCFCF;
+*/
+    background-color: #6C90A1;
+    background-image: url("http://static.wixstatic.com/media/84770f_e8c20f1efa99ee9a1d211494f95e00f2.jpg_srz_p_1280_800_75_22_0.50_1.20_0.00_jpg_srz");
+    background-position: center top;
+    background-repeat: no-repeat;
+ 
+    
+    background-size: cover;
+    height: 359px;
+/*    position: fixed;*/
+    width: 100%;
+
     padding: 0;
     margin: 0;
 }
@@ -36,7 +67,20 @@ body {
     font-size: 12px;
     text-align: left;
     color: #000000;
-    background: #68A0C8;
+    /*background: #68A0C8;
+    background: url("img/bg_gradient.png") repeat-x scroll 0 0 #CFCFCF; */
+
+    background-color: #6C90A1;
+    background-image: url("http://static.wixstatic.com/media/84770f_e8c20f1efa99ee9a1d211494f95e00f2.jpg_srz_p_1280_800_75_22_0.50_1.20_0.00_jpg_srz");
+    background-position: center top;
+    background-repeat: no-repeat;
+  
+    
+    background-size: cover;
+    height: 359px;
+/*    position: fixed;*/
+    width: 100%;
+    
     display: table;
 
     width: 100%;
