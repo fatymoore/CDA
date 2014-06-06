@@ -89,6 +89,7 @@ body {
 #body p {
     font-size: 12px;
     color: #000000;
+    text-align: justify;
 }
 
 #body .bot, #body .bot td, #body .bot p, #body div .bot #totop, #body td .bot #totop{
