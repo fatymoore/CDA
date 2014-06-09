@@ -16,6 +16,9 @@ body, #body, #maintable { margin-left:auto; margin-right:auto; }
 }
 
 .bg2 {  
+    margin-top: 50px;
+    margin-left: 300px;
+    width: 50%;
 }
 
 .bg3 { 
@@ -37,10 +40,14 @@ body, #body, #maintable { margin-left:auto; margin-right:auto; }
     padding-left: 20px;
 }
 
-#maintable {
-/*	border-left:33px solid #865f34;
-	border-right:33px solid #865f34;    
-	border-bottom:33px solid #865f34;    */
+.bg5 { 
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+#maintable { 
 }
 
 
@@ -93,10 +100,15 @@ body {
     height: 100%;
 
 }
-* html #body { height: 100%; width: 100%; overflow:auto; }
+* html #body { 
+    height: 100%; 
+    width: 100%; 
+    overflow:auto; 
+}
 #body td {
-        font-size: 12px;font-family: Verdana, Geneva, Helvetica, Arial, sans-serif;
-        color: #000000;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Helvetica, Arial, sans-serif;
+    color: #000000;
 }
 
 #body p {
