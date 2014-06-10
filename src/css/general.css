@@ -2,7 +2,11 @@
 /* ************************************************ */
 /* Generic Design Css: design.css */
 
-body, #body, #maintable { margin-left:auto; margin-right:auto; }
+body, #body, #maintable { 
+    margin-left:auto; 
+    margin-right:auto; 
+}
+
 /* ************************************************ */
 /* Design Css for Color: color.css */
  
@@ -10,11 +14,11 @@ body, #body, #maintable { margin-left:auto; margin-right:auto; }
     font-size:10px;
     color:#000000; 
 }
-
+/*
 .bg1 { 
     background-color:#A9BAF1 
 }
-
+*/
 .bg2 {  
     margin-top: 30px;
     margin-left: 250px;
@@ -50,6 +54,47 @@ body, #body, #maintable { margin-left:auto; margin-right:auto; }
 #maintable { 
    /* width: 1150;*/
    width: 100%;
+}
+
+
+.information {
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+
+    min-height: 500px;
+    opacity: 1;
+    position: relative;
+    visibility: visible;
+    width: 50%;
+    background-color: white;
+
+    text-align: left;
+    clear: both;
+    font-family: Verdana, Geneva, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+.pictureInformation {
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+
+    min-height: 500px;
+
+    width: 50%;
+    background-color: white;
+}
+
+.titleInformation {
+    font-size: 22px;
+    font-family: Verdana, Geneva, Helvetica, Arial, sans-serif; 
+    color: rgb(118, 110, 81);
+    
+    padding-top: 10px;
+    padding-left: 200px;
 }
 
 
