@@ -98,7 +98,7 @@ body, #body, #maintable {
     text-align: justify;
 }
 
-.pictureInformation {
+#body td .pictureInformation {
     padding-left: 20px;
     padding-top: 10px;
     padding-right: 20px;
@@ -110,7 +110,7 @@ body, #body, #maintable {
     background-color: white;
 }
 
-.titleInformation {
+#body td .titleInformation {
     font-size: 22px;
     font-family: Verdana, Geneva, Helvetica, Arial, sans-serif; 
     color: rgb(118, 110, 81);
