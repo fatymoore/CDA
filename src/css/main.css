@@ -73,25 +73,25 @@
 
 
 ul#tabcontainer { 
- padding: 5px; 
- height:1.5em; /*height of 2nd level sub menus. Set to largest's sub menu's height to avoid jittering.*/
+    padding: 5px; 
+    height:1.5em; /*height of 2nd level sub menus. Set to largest's sub menu's height to avoid jittering.*/
 }
    
 ul#tabcontainer li { 
- float: right;
- list-style: none; 
+    float: right;
+    list-style: none; 
 }
    
 ul#tabcontainer li:hover{
- color: #aaa073;
- cursor:pointer;
+    color: #aaa073;
+    cursor:pointer;
 }
    
 ul#tabcontainer ul {
- display: none; 
- color: #fff;
- padding: 5px 0px 5px 5px;
- margin: 0;
+    display: none; 
+    color: #fff;
+    padding: 5px 0px 5px 5px;
+    margin: 0;
 }
    
 ul#tabcontainer ul li{
