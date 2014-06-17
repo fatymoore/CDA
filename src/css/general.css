@@ -144,6 +144,32 @@ body, #body, #maintable {
     text-align: justify;
 }
 
+#body td .informationBono {
+    font-size: 12px;
+    font-family: Verdana, Geneva, Helvetica, Arial, sans-serif; 
+    
+    color: white;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+  /*  background-color: white;*/
+
+    text-align: justify;
+}
+
+.tableBonos {
+    width: 500px; 
+}
+
+.titleBono {
+    margin-top: 5px; 
+    margin-bottom: 5px; 
+
+    font-size: 18px;
+    font-family: Verdana, Geneva, Helvetica, Arial, sans-serif; 
+    color: rgb(118, 110, 81);
+}
 
 /* ************************************************ */
 /* Custom Css Part */
