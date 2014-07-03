@@ -1,4 +1,4 @@
-
+fpicture
 /* ************************************************ */
 /* Generic Design Css: design.css */
 
@@ -113,12 +113,12 @@ body, #body, #maintable {
 }
 
 #body td .pictureInformation {
-    padding-left: 20px;
+    padding-left: 60px;
     padding-top: 10px;
     padding-right: 20px;
     padding-bottom: 10px;
 
-    min-height: 500px;
+    /*min-height: 500px;*/
 
     width: 50%;
     /*background-color: white;*/
