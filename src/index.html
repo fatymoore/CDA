@@ -260,6 +260,42 @@
 								</tr>
 							</tbody>
 							</table>
+					     
+							<div style="overflow: hidden; font-family: Verdana, Geneva, Helvetica, Arial, sans-serif; display: block;" id="vcounter"><br><br>
+								<div style="text-align: center; font-family: Verdana, Geneva, Helvetica, Arial, sans-serif;">
+									<span id="counter_text_before"></span>
+									<div style="font-size: 3pt;"></div>
+									<div style="display: block;" id="counter_wrap">
+
+										<script type="text/javascript">
+								
+											var movieUrl = "ce_vcounter/flash/design9.swf?url=%2F%2Fwww.livepages.de%2Factivities%2Fc%3Fp%3D1165556%26c%3Dtrue";
+											var protocol = window.location.protocol;
+											if (protocol === 'http:') {
+												movieUrl = movieUrl.replace(/url=https/, 'url=http'); 
+											}
+											
+											document.writeln('<object width="116" height="30" align="middle" id="counter" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"><param name="AllowScriptAccess" value="always"/><param name="src" value="' + movieUrl + '"/><param name="movie" value="' + movieUrl + '"/><param name="menu" value="false"/><param name="quality" value="high"/><param name="wmode" value="transparent"/><param name="bgcolor" value="#ffffff"/><embed width="116" height="30" align="middle" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" allowscriptaccess="always" name="counter" wmode="transparent" quality="high" menu="false" src="' + movieUrl + '"/></object>');
+											
+										</script>
+									</div>
+								</div>
+							</div>
+
+							<script type="text/javascript">
+							if (typeof document.all != 'undefined') {
+								var counter = document.getElementById('vcounter');
+								if (counter) {
+									if (counter.parentNode) {
+										var tdAboveCounterWidth = counter.parentNode.getAttribute("width");
+										if (tdAboveCounterWidth) {
+											counter.style.width = tdAboveCounterWidth;
+										}
+									}
+								}
+							}
+							</script>
+
 
 							<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-52d5212607961be5"></script><script type="text/javascript">
 							  addthis.layers({
