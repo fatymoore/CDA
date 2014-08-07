@@ -4,93 +4,94 @@
 /* Generic Design Css: tabs.css */
 
 .glowingtabs{
-float:right;
-width:100%;
-line-height:normal;
-border-bottom: 1px solid #7e9fff; /*Add border strip to bottom of menu*/
+    float:right;
+    width:100%;
+    line-height:normal;
+    border-bottom: 1px solid #7e9fff; /*Add border strip to bottom of menu*/
 }
 
 .glowingtabs ul{
-list-style-type: none;
-margin:0;
-margin-left: 5px; /*Left offset of entire tab menu relative to page*/
-padding:0;
+    list-style-type: none;
+    margin:0;
+    margin-left: 5px; /*Left offset of entire tab menu relative to page*/
+    padding:0;
 }
 
 .glowingtabs li{
-display:inline;
-margin:0;
-padding:0;
-float:right;
+    display:inline;
+    margin:0;
+    padding:0;
+    float:right;
 }
 
 .glowingtabs a{
-float:left;
-background:url(media/glowtab-left.gif) no-repeat left top;
-margin:0;
-margin-right: 5px; /*spacing between each tab*/
-padding:0 0 0 9px;
-text-decoration:none;
+    float:left;
+    background:url(media/glowtab-left.gif) no-repeat left top;
+    margin:0;
+    margin-right: 5px; /*spacing between each tab*/
+    padding:0 0 0 9px;
+    text-decoration:none;
 }
 
 .glowingtabs a span{
-float:left;
-display:block;
-background:url(media/glowtab.gif) no-repeat right top;
-padding: 5px 12px 3px 3px;
-font-weight:bold;
-color:#3B3B3B;
+    float:left;
+    display:block;
+    background:url(media/glowtab.gif) no-repeat right top;
+    padding: 5px 12px 3px 3px;
+    font-weight: bold;
+    color:#3B3B3B;
 }
 
 /* Commented Backslash Hack hides rule from IE5-Mac \*/
-.glowingtabs a span {float:none;}
+.glowingtabs a span {
+    float:none;
+}
 /* End IE5-Mac hack */
 
 .glowingtabs a:hover span {
-color: black;
+    color: black;
 }
 
 .glowingtabs a.current{ /*Selected Tab style*/
-background-position:0 -82px; /*Shift background image up to start of 2nd tab image*/
+    background-position:0 -82px; /*Shift background image up to start of 2nd tab image*/
 }
 
 .glowingtabs a.current span{ /*Selected Tab style*/
-background-position:100% -82px; /*Shift background image up to start of 2nd tab image*/
-color: black;
+    background-position:100% -82px; /*Shift background image up to start of 2nd tab image*/
+    color: black;
 }
 
 .glowingtabs a:hover{ /*onMouseover style*/
-background-position:0% -82px; /*Shift background image up to start of 2nd tab image*/
+    background-position:0% -82px; /*Shift background image up to start of 2nd tab image*/
 }
 
 .glowingtabs a:hover span{ /*onMouseover style*/
-background-position:100% -82px; /*Shift background image up to start of 2nd tab image*/
+    background-position:100% -82px; /*Shift background image up to start of 2nd tab image*/
 }
-
 
 
 
 
 ul#tabcontainer { 
- padding: 5px; 
- height:1.5em; /*height of 2nd level sub menus. Set to largest's sub menu's height to avoid jittering.*/
+    padding: 5px; 
+    height:1.5em; /*height of 2nd level sub menus. Set to largest's sub menu's height to avoid jittering.*/
 }
    
 ul#tabcontainer li { 
- float: right;
- list-style: none; 
+    float: right;
+    list-style: none; 
 }
    
 ul#tabcontainer li:hover{
- color: #aaa073;
- cursor:pointer;
+    color: #aaa073;
+    cursor:pointer;
 }
    
 ul#tabcontainer ul {
- display: none; 
- color: #fff;
- padding: 5px 0px 5px 5px;
- margin: 0;
+    display: none; 
+    color: #fff;
+    padding: 5px 0px 5px 5px;
+    margin: 0;
 }
    
 ul#tabcontainer ul li{
@@ -159,7 +160,7 @@ ul#tabcontainer li:hover ul,ul#
     background: #FFFFFF;
     font-weight:bold;
     color:#3B3B3B; 
-    width: 110px;
+    width: 120px;
 }
 
 .tabSubmenu a span {
